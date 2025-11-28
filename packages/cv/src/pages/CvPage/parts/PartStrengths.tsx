@@ -5,17 +5,17 @@ import { StrengthCard } from "../../../components/StrengthCard";
 import { Section } from "../../../components/Section";
 import { CvTranslation } from "../../../translations/types";
 
-export function PartQualities({ t }: { t: CvTranslation }) {
+export function PartStrengths({ t }: { t: CvTranslation }) {
   return (
     <Section>
-      <SectionTitle>{t.qualities.title}</SectionTitle>
+      <SectionTitle>{t.strengths.title}</SectionTitle>
       <View style={tw("gap-2")}>
-        {t.qualities.list.map(({ quality, details }) => (
+        {t.strengths.list.map(({ title, description }) => (
           <StrengthCard
-            key={quality}
-            strength={quality}
+            key={title}
+            strength={title}
             Details={(
-              <Text>{details}</Text>
+              <Text>{description}</Text>
             )}
           />
         ))}

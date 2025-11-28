@@ -4,8 +4,7 @@ import { PartContact } from "./parts/PartContact";
 import { PartExperience } from "./parts/PartExperience";
 import { PartTechnologies } from "./parts/PartTechnologies";
 import { PartEducation } from "./parts/PartEducation";
-import { PartQualities } from "./parts/PartQualities";
-import { PartOther } from "./parts/PartOther";
+import { PartStrengths } from "./parts/PartStrengths";
 import { CvTranslation } from "../../translations/types";
 
 export type CvPageProps = {
@@ -34,14 +33,12 @@ export function CvPage({ t }: CvPageProps) {
           {/*Left*/}
           <View style={tw("flex-1")}>
             <PartExperience t={t} />
-            <PartTechnologies t={t} />
           </View>
           {/*Right*/}
           <View style={tw("w-4/12")}>
+            <PartStrengths t={t} />
             <PartEducation t={t} />
-            <PartQualities t={t} />
-            <PartOther t={t} />
-            {/*<PartLanguages t={t} />*/}
+            <PartTechnologies t={t} />
           </View>
         </View>
 
