@@ -17,7 +17,7 @@ export function CarouselDots<TData>({ className, keyExtractor, labelExtractor }:
     )}>
       <button
         type="button"
-        className="transition-colors text-xl p-1 text-blue-500 hover:bg-blue-100"
+        className="transition-colors text-3xl p-1 text-blue-500 hover:bg-blue-100"
         aria-label="previous"
         onClick={() => {
           setCurrentIndex((prev) => {
@@ -45,7 +45,7 @@ export function CarouselDots<TData>({ className, keyExtractor, labelExtractor }:
             <button
               type="button"
               className={clsx(
-                "block size-4 rounded-full transition-colors",
+                "block size-6 rounded-full transition-colors",
                 "bg-blue-500 group-aria-selected/dot:bg-orange-500"
               )}
               aria-label={labelExtractor(item, index)}
@@ -56,7 +56,7 @@ export function CarouselDots<TData>({ className, keyExtractor, labelExtractor }:
       </ol>
       <button
         type="button"
-        className="transition-colors text-xl p-1 text-blue-500 hover:bg-blue-100"
+        className="transition-colors text-3xl p-1 text-blue-500 hover:bg-blue-100"
         aria-label="next"
         onClick={() => {
           setCurrentIndex((prev) => {

@@ -12,7 +12,7 @@ export type CarouselProps<TData> = {
   renderItem: (arg: { item: TData; index: number; focused: boolean }) => JSX.Element;
 }
 
-const DRAG_BUFFER = 50;
+const DRAG_BUFFER = 30;
 
 export function Carousel<TData>({ className, data: maybeData, keyExtractor, renderItem }: CarouselProps<TData>) {
   const { data, currentIndex, setCurrentIndex } = useCarouselData(maybeData);
