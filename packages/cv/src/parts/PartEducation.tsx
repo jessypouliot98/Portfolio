@@ -1,9 +1,9 @@
-import { SectionTitle } from "../../../components/SectionTitle";
+import { SectionTitle } from "../components/SectionTitle";
 import { View } from "@react-pdf/renderer";
-import { tw } from "../../../utils/tailwind";
-import { EducationCard } from "../../../components/EducationCard";
-import { Section } from "../../../components/Section";
-import { CvTranslation } from "../../../translations/types";
+import { tw } from "../utils/tailwind";
+import { EducationCard } from "../components/EducationCard";
+import { Section } from "../components/Section";
+import { CvTranslation } from "../translations/types";
 
 export function PartEducation({ t }: { t: CvTranslation }) {
   return (

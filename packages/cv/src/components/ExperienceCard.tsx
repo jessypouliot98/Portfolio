@@ -3,6 +3,7 @@ import { tw } from "../utils/tailwind";
 
 export type ExperienceCardProps = {
   job: string;
+  stack: string[];
   company: string;
   location: string;
   Details?: React.ReactNode;
@@ -10,7 +11,7 @@ export type ExperienceCardProps = {
   to: string;
 }
 
-export function ExperienceCard({ job, company, location, Details, from, to }: ExperienceCardProps) {
+export function ExperienceCard({ job, stack, company, location, Details, from, to }: ExperienceCardProps) {
   return (
     <View style={tw("px-2 py-2 rounded bg-gray-100 gap-1")}>
       <View>
@@ -19,6 +20,8 @@ export function ExperienceCard({ job, company, location, Details, from, to }: Ex
           <Text style={tw("text-xs font-medium leading-snug text-blue-500")}>{company}</Text>
           <Text style={tw("text-xs leading-snug text-black")}>-</Text>
           <Text style={tw("text-xs leading-snug text-black")}>{location}</Text>
+          <Text style={tw("text-xs leading-snug text-black")}>-</Text>
+          <Text style={tw("text-xs leading-snug text-gray-500")}>{stack.join(', ')}</Text>
         </View>
         <View style={tw("flex-row items-center gap-2")}>
           <Text style={tw("text-xs leading-snug text-gray-500")}>{from}</Text>

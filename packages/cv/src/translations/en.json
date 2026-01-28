@@ -91,6 +91,11 @@
     "job": [
       {
         "title": "Senior Software Engineer (Frontend)",
+        "stack": [
+          "React Native",
+          "TypeScript",
+          "GraphQL"
+        ],
         "company": "National Bank of Canada",
         "location": "Montreal, QC (hybrid)",
         "from": "March 2025",
@@ -104,6 +109,13 @@
       },
       {
         "title": "Senior Software Engineer (Full-Stack)",
+        "stack": [
+          "Next.js",
+          "TypeScript",
+          "SQL",
+          "Redis",
+          "Docker"
+        ],
         "company": "ECAM.ai (GardaWorld)",
         "location": "Montreal, QC (remote)",
         "from": "December 2022",
@@ -118,8 +130,13 @@
       },
       {
         "title": "Senior Software Engineer (Frontend)",
+        "stack": [
+          "React Native",
+          "TypeScript",
+          "Redux"
+        ],
         "company": "RenoRun",
-        "location": "Montreal, QC (full remote)",
+        "location": "Montreal, QC (remote)",
         "from": "September 2021",
         "to": "November 2022",
         "content": [

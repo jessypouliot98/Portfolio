@@ -91,6 +91,11 @@
     "job": [
       {
         "title": "Ingénieur Logiciel Senior (Frontend)",
+        "stack": [
+          "React Native",
+          "TypeScript",
+          "GraphQL"
+        ],
         "company": "Banque Nationale du Canada",
         "location": "Montréal, QC (hybride)",
         "from": "Mars 2025",
@@ -106,6 +111,13 @@
       },
       {
         "title": "Ingénieur Logiciel Senior (Full-Stack)",
+        "stack": [
+          "Next.js",
+          "TypeScript",
+          "SQL",
+          "Redis",
+          "Docker"
+        ],
         "company": "ECAM.ai (GardaWorld)",
         "location": "Montréal, QC (télétravail)",
         "from": "Décembre 2022",
@@ -122,8 +134,13 @@
       },
       {
         "title": "Ingénieur Logiciel Senior (Frontend)",
+        "stack": [
+          "React Native",
+          "TypeScript",
+          "Redux"
+        ],
         "company": "RenoRun",
-        "location": "Montréal, QC (télétravail complet)",
+        "location": "Montréal, QC (télétravail)",
         "from": "Septembre 2021",
         "to": "Novembre 2022",
         "content": [
