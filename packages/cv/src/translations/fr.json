@@ -2,6 +2,8 @@
   "title": "Jessy Pouliot",
   "subtitle": "Ingénieur Logiciel Senior",
   "presentation": "Ingénieur full-stack possédant une forte expertise en TypeScript, React, React Native et en outils backend modernes. Plus de six ans d’expérience dans la conception et la livraison d’applications performantes, d’API évolutives et d’infrastructures orientées développeurs. Capable de transformer des exigences complexes en systèmes propres et maintenables, tout en améliorant les processus d’ingénierie et la collaboration interéquipes. Reconnu pour une exécution de haute qualité, un sens pratique aiguisé et une compréhension approfondie des architectures frontend et mobiles.",
+  "--TODO-1--": "-- UPDATE THIS FILE WITH TRANSLATIONS  --",
+  "presentationSaaS": "Ingénieur full-stack possédant une forte expertise en TypeScript, React, React Native et en outils backend modernes. Plus de six ans d’expérience dans la conception et la livraison d’applications performantes, d’API évolutives et d’infrastructures orientées développeurs. Capable de transformer des exigences complexes en systèmes propres et maintenables, tout en améliorant les processus d’ingénierie et la collaboration interéquipes. Reconnu pour une exécution de haute qualité, un sens pratique aiguisé et une compréhension approfondie des architectures frontend et mobiles.",
   "contact": {
     "email": {
       "label": "Courriel"
@@ -86,6 +88,7 @@
       }
     ]
   },
+  "--TODO-2--": "-- UPDATE THIS FILE WITH TRANSLATIONS  --",
   "experience": {
     "title": "Expériences professionnelles",
     "job": [
@@ -107,6 +110,9 @@
         ],
         "noSpaceExcluded": [
           { "text": "Amélioration de la réactivité de plus de 600% en identifiant et corrigeant des inefficacités de rendu dans l’implémentation existante." }
+        ],
+        "contentB": [
+          { "text": "" }
         ]
       },
       {
@@ -130,6 +136,9 @@
         ],
         "noSpaceExcluded": [
           { "text": "Construit une application mobile React Native complète, atteignant presque la parité fonctionnelle avec la plateforme web." }
+        ],
+        "contentB": [
+          { "text": "" }
         ]
       },
       {
@@ -148,6 +157,9 @@
           { "text": "Développé des composants fondamentaux pour l’application mobile, améliorant la rapidité de développement et l’uniformité entre les équipes." },
           { "text": "Agit comme ressource principale pour diagnostiquer et résoudre des problèmes mobiles complexes, identifiant fréquemment les causes profondes dans du code hérité." },
           { "text": "Gagné l’hackathon interne de 2021 grâce à la mise en place d’une solution CMS avec mise en cache JSON sur CDN, réduisant le délai de mise à jour du contenu de plusieurs semaines à quelques minutes." }
+        ],
+        "contentB": [
+          { "text": "" }
         ]
       }
     ]

@@ -6,11 +6,11 @@ import { ExperienceCard } from "../components/ExperienceCard";
 import { Section } from "../components/Section";
 import { BulletList } from "../components/BulletList";
 
-export type PartExperienceProps = {
+export type PartExperienceAProps = {
   t: CvTranslation;
 }
 
-export function PartExperience({ t }: PartExperienceProps) {
+export function PartExperienceA({ t }: PartExperienceAProps) {
   return (
     <Section>
       <SectionTitle>{t.experience.title}</SectionTitle>
@@ -26,7 +26,7 @@ export function PartExperience({ t }: PartExperienceProps) {
             to={job.to}
             Details={(
               <BulletList
-                content={job.content}
+                content={job.contentB}
               />
             )}
           />

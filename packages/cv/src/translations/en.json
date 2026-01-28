@@ -1,7 +1,8 @@
 {
   "title": "Jessy Pouliot",
   "subtitle": "Senior Software Engineer",
-  "presentation": "Full-stack engineer with strong expertise in TypeScript, React, React Native, and modern backend tooling. Over six years designing and delivering performant applications, scalable APIs, and developer-focused infrastructure. Adept at turning complex product requirements into clean, maintainable systems while improving engineering processes and cross-team collaboration. Known for high-quality execution, pragmatic decision-making, and a deep understanding of frontend and mobile architecture.",
+  "presentation": "Full-stack engineer with strong expertise in TypeScript, React, React Native, and modern backend tooling. Over six years designing and delivering performant applications, scalable APIs, and developer-focused infrastructure. Adept at turning complex product requirements into clean, maintainable systems while improving engineering processes and cross-team collaboration. Known for high-quality execution, pragmatic decision-making, and a strong grasp of system design across the stack.",
+  "presentationSaaS": "Full-stack engineer with over six years of experience specializing in complex B2B SaaS environments. I focus on building high-performance systems using Node.js, TypeScript, and React/React Native. My approach centers on creating unified architectures—leveraging monorepos and type-safe API layers—to bridge the gap between web, mobile, and the backend. I combine a product-focused mindset for UI with a deep interest in database optimization and system reliability. Currently looking to apply my experience in distributed systems while transitioning my backend expertise into Go.",
   "contact": {
     "email": {
       "label": "Email"
@@ -101,10 +102,10 @@
         "from": "March 2025",
         "to": "December 2025",
         "content": [
-          { "text": "Led a significant rewrite of the account transactions experience, modernizing the architecture to reduce clutter, improve performance, and ensure long-term maintainability." },
-          { "text": "Improved responsiveness by over 600% by identifying and correcting rendering inefficiencies in the account transactions implementation." },
-          { "text": "Designed and implemented a highly customizable local API-mocking system, enabling developers to simulate complex account scenarios and dramatically improving development speed and testability." },
-          { "text": "Performed cross-team code reviews, identified deep architectural issues, and advised on performance, type safety, and best practices. Becoming an informal technical resource for developers outside the immediate team." }
+          { "text": "Selected to rewrite the account transactions experience using modern React Native patterns, delivering a lean and maintainable architecture that supports long-term platform stability for future development" },
+          { "text": "Improved user experience by introducing loading state animations and robust error handling, increasing clarity and reliability during critical transaction flows" },
+          { "text": "Designed and implemented a customizable local API-mocking system, enabling developers to simulate complex account scenarios and significantly accelerating development and testing" },
+          { "text": "Provided cross-team code reviews and architectural guidance, raising standards around performance, type safety, and best practices for engineers beyond the immediate team" }
         ]
       },
       {
@@ -121,11 +122,10 @@
         "from": "December 2022",
         "to": "February 2025",
         "content": [
-          { "text": "Designed and built advanced interfaces, including a user-customizable layout system using CSS grid template areas and drag-and-drop configuration." },
-          { "text": "Implemented an infinite-scroll timeline component with efficient virtualization techniques, enabling smooth performance at scale." },
-          { "text": "Developed high-performance backend features using PostgreSQL, Redis, TRPC, and react-query." },
-          { "text": "Built a React Native mobile application from the ground up with near feature parity to the web platform." },
-          { "text": "Established monorepo tooling to unify shared code across platforms, introduce task caching, and streamline CI/CD pipelines. Significantly reducing build time and operational costs." }
+          { "text": "Selected to lead the monorepo architecture for web and mobile applications using Turborepo, enabling shared code and unified build workflows" },
+          { "text": "Led a ground-up website rewrite, building a reusable UI library and delivering advanced UX features (drag-and-drop CCTV dashboards, infinite paging, geometry-based camera masking) that significantly improved usability and business user efficiency" },
+          { "text": "Designed and implemented a type-safe API layer using tRPC across the monorepo, enabling fast, reliable development and safe API usage between web and mobile applications" },
+          { "text": "Built and optimized PostgreSQL- and Redis-backed APIs, supporting CRUD, processed queries, and keyset pagination; improved performance through query plan analysis, indexing, SQL function optimization, and query preprocessing" }
         ]
       },
       {
@@ -140,10 +140,10 @@
         "from": "September 2021",
         "to": "November 2022",
         "content": [
-          { "text": "Collaborated closely with design and product to deliver refined and resilient features across mobile and web." },
-          { "text": "Built foundational components for the mobile application, improving development speed and consistency across teams." },
-          { "text": "Served as a primary resource for diagnosing and resolving complex mobile issues, regularly identifying root causes in legacy code." },
-          { "text": "Won the 2021 internal hackathon by implementing a CMS-based solution with JSON caching on a CDN, reducing copy-update turnaround from weeks to minutes." }
+          { "text": "Collaborated closely with design and product to deliver polished, resilient features across mobile and web, balancing UX quality with long-term maintainability" },
+          { "text": "Built foundational mobile components that improved development speed and ensured UI and behavior consistency across teams" },
+          { "text": "Acted as a go-to engineer for complex mobile issues, diagnosing and resolving deep-rooted problems in legacy codebases through systematic root-cause analysis" },
+          { "text": "Won the 2021 internal hackathon by delivering a CMS-driven content system with JSON caching on a CDN, reducing copy update turnaround from weeks to minutes" }
         ]
       }
     ]
