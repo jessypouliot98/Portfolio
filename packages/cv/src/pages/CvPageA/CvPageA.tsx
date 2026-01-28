@@ -9,10 +9,19 @@ import { CvTranslation } from "../../translations/types";
 
 export type CvPageAProps = {
   t: CvTranslation;
-  version: "original" | "SaaS"
+  version: string
 }
 
 export function CvPageA({ t, version }: CvPageAProps) {
+  let presentation = t.presentation;
+  const presentationKey = `presentation_${version}` as keyof typeof t;
+  if (
+    presentationKey in t &&
+    typeof t[presentationKey] === "string" &&
+    t[presentationKey] !== "" // Empty fallback to base presentation
+  ) {
+    presentation = t[presentationKey];
+  }
   return (
     <Document>
       <Page
@@ -26,7 +35,7 @@ export function CvPageA({ t, version }: CvPageAProps) {
           </View>
           <View style={tw("w-8/12 px-2")}>
             <Text style={tw("text-xs leading-normal")}>
-              {version === "SaaS" ? t.presentationSaaS : t.presentation}
+              {presentation}
             </Text>
           </View>
           <PartContact t={t}/>

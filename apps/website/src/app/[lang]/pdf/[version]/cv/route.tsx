@@ -19,7 +19,7 @@ export async function GET(
   const { lang, version } = await params;
   let contentDisposition: string | undefined;
   if (request.nextUrl.searchParams.get("download") === "1") {
-    contentDisposition = `attachment; filename="CV_${lang}_jessypouliot.pdf"`
+    contentDisposition = `attachment; filename="CV Jessy Pouliot (${lang}).pdf"`
   }
 
   const t = lang === "fr" ? fr : en;
@@ -27,7 +27,7 @@ export async function GET(
   const pdfStream = await ReactPDF.renderToStream(
     <CvPageA
       t={t}
-      version={version.toLowerCase() === "saas" ? "SaaS" : "original"}
+      version={version}
     />
   );
   return new Response(pdfStream as unknown as ReadableStream<unknown>, {

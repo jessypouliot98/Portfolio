@@ -26,7 +26,7 @@ export function PartExperienceA({ t }: PartExperienceAProps) {
             to={job.to}
             Details={(
               <BulletList
-                content={job.contentB}
+                content={job.content}
               />
             )}
           />
