@@ -18,6 +18,7 @@ export function PartExperienceA({ t }: PartExperienceAProps) {
         {t.experience.job.map((job, i) => (
           <ExperienceCard
             key={i}
+            stackType={job.stackType}
             stack={job.stack}
             job={job.title}
             company={job.company}

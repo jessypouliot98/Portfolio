@@ -43,7 +43,7 @@
     "list": [
       "Typescript",
       "PostgreSQL",
-      "React.js",
+      "React",
       "React-Native",
       "Next.js",
       "Node.js",
@@ -92,7 +92,8 @@
     "title": "Professional Experiences",
     "job": [
       {
-        "title": "Senior Software Engineer (Frontend)",
+        "title": "Senior Software Engineer",
+        "stackType": "Frontend",
         "stack": [
           "React Native",
           "TypeScript",
@@ -110,11 +111,14 @@
         ]
       },
       {
-        "title": "Senior Software Engineer (Full-Stack)",
+        "title": "Senior Software Engineer",
+        "stackType": "Full-Stack",
         "stack": [
+          "React",
           "Next.js",
           "TypeScript",
-          "SQL",
+          "TailwindCSS",
+          "PostgreSQL",
           "Redis",
           "Docker"
         ],
@@ -130,8 +134,10 @@
         ]
       },
       {
-        "title": "Senior Software Engineer (Frontend)",
+        "title": "Senior Software Engineer",
+        "stackType": "Frontend",
         "stack": [
+          "Next.js",
           "React Native",
           "TypeScript",
           "Redux"
