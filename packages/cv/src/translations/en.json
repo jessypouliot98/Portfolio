@@ -2,8 +2,6 @@
   "title": "Jessy Pouliot",
   "subtitle": "Senior Full-Stack Developer",
   "presentation": "Full-stack developer with strong expertise in TypeScript, React, React Native, and modern backend tooling. Over six years designing and delivering performant applications, scalable APIs, and developer-focused infrastructure. Adept at turning complex product requirements into clean, maintainable systems while improving engineering processes and cross-team collaboration. Known for high-quality execution, pragmatic decision-making, and a strong grasp of system design across the stack.",
-  "presentation_saas": "Full-stack developer with over six years of experience specializing in complex B2B SaaS environments. I focus on building high-performance systems using Node.js, TypeScript, and React/React Native. My approach centers on creating unified architectures, leveraging monorepos and type-safe API layers, to bridge the gap between web, mobile, and the backend. I combine a product-focused mindset for UI with a deep interest in database optimization and system reliability.",
-  "presentation_saas_go": "Full-stack developer with over six years of experience specializing in complex B2B SaaS environments. I focus on building high-performance systems using Node.js, TypeScript, and React/React Native. My approach centers on creating unified architectures, leveraging monorepos and type-safe API layers, to bridge the gap between web, mobile, and the backend. I combine a product-focused mindset for UI with a deep interest in database optimization and system reliability. Currently looking to apply my experience in distributed systems while transitioning my backend expertise into Go.",
   "contact": {
     "email": {
       "label": "Email"
@@ -112,7 +110,6 @@
       },
       {
         "title": "Senior Software Engineer",
-        "stackType": "Full-Stack",
         "stack": [
           "React",
           "Next.js",
