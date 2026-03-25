@@ -1,7 +1,7 @@
 {
   "title": "Jessy Pouliot",
   "subtitle": "Senior Full-Stack Developer",
-  "presentation": "Full-stack developer with strong expertise in TypeScript, React, React Native, and modern backend tooling. Over six years designing and delivering performant applications, scalable APIs, and developer-focused infrastructure. Adept at turning complex product requirements into clean, maintainable systems while improving engineering processes and cross-team collaboration. Known for high-quality execution, pragmatic decision-making, and a strong grasp of system design across the stack.",
+  "presentation": "Full-stack developer with strong expertise in TypeScript, React, React Native, and modern back-end tooling. Over six years designing and delivering performant applications, scalable APIs, and developer-focused infrastructure. Adept at turning complex product requirements into clean, maintainable systems while improving engineering processes and cross-team collaboration. Known for high-quality execution, pragmatic decision-making, and a strong grasp of system design across the stack.",
   "contact": {
     "email": {
       "label": "Email"
@@ -61,8 +61,8 @@
         "certification": "Techniques d'intégration multimédia",
         "completedOn": "2019",
         "content": [
-          { "text": "Frontend development with HTML, CSS, JavaScript, React" },
-          { "text": "Backend development with PHP, Laravel, MySQL" },
+          { "text": "Front-end development with HTML, CSS, JavaScript, React" },
+          { "text": "Back-end development with PHP, Laravel, MySQL" },
           { "text": "Game development with Unity3D, C# and ActionScript" },
           { "text": "Graphic design fundamentals and UI/UX principles" }
         ]
@@ -91,7 +91,7 @@
     "job": [
       {
         "title": "Senior Software Engineer",
-        "stackType": "Frontend",
+        "stackType": "Front-End",
         "stack": [
           "React Native",
           "TypeScript",
@@ -133,7 +133,7 @@
       },
       {
         "title": "Senior Software Engineer",
-        "stackType": "Frontend",
+        "stackType": "Front-End",
         "stack": [
           "Next.js",
           "React Native",
