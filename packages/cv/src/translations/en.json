@@ -88,6 +88,32 @@
       }
     ]
   },
+  "portfolio": {
+    "title": "Portfolio",
+    "project": [
+      {
+        "title": "Forkestrate",
+        "stackType": "Full-Stack",
+        "stack": [
+          "React",
+          "React Native",
+          "Next.js",
+          "TypeScript",
+          "Convex",
+          "LLM"
+        ],
+        "content": [
+          { "text": "Website: https://www.forkestrate.com/" },
+          { "text": "iOS App: Available soon! We're trying to get our app released in April 2026!" },
+          { "text": "Android App: TBD! We're working on releasing on iOS first and getting feedback from the community" },
+          { "text": "Designed a Gantt chart–based cooking flow, transforming traditional recipes into step-by-step timed sequences for improved usability and clarity" },
+          { "text": "Implemented real-time data synchronization using Convex to support dynamic updates and responsive UI interactions" },
+          { "text": "Integrated AI-driven recipe generation, enabling users to create personalized recipes based on preferences or constraints" },
+          { "text": "Practiced rapid iteration and experimentation typical of a hobby/startup environment, shipping features end-to-end" }
+        ]
+      }
+    ]
+  },
   "experience": {
     "title": "Professional Experiences",
     "job": [
