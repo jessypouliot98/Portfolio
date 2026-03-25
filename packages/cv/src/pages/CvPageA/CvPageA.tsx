@@ -7,6 +7,7 @@ import { PartEducation } from "../../parts/PartEducation";
 import { PartStrengths } from "../../parts/PartStrengths";
 import { CvTranslation } from "../../translations/types";
 import { PartPortfolio } from "../../parts/PartPortfolio";
+import { PartLanguages } from "../../parts/PartLanguages";
 
 export type CvPageAProps = {
   t: CvTranslation;
@@ -59,9 +60,9 @@ export function CvPageA({ t, version }: CvPageAProps) {
         style={tw("font-sans p-3 text-base leading-tight")}
       >
         <View style={tw("pb-3 gap-3")}>
-          <View style={tw("px-2")}>
+          <View style={tw("flex-row items-center gap-4 px-2")}>
             <Text style={tw("text-xl font-bold leading-tight")}>{t.title}</Text>
-            <Text style={tw("text-2xl font-medium leading-tight text-blue-500")}>{t.subtitle}</Text>
+            <Text style={tw("text-xl font-medium leading-tight text-blue-500")}>{t.subtitle}</Text>
           </View>
           <PartContact t={t}/>
         </View>
@@ -72,7 +73,7 @@ export function CvPageA({ t, version }: CvPageAProps) {
           </View>
           {/*Right*/}
           <View style={tw("w-4/12")}>
-            {/* Empty  */}
+            <PartLanguages t={t} />
           </View>
         </View>
       </Page>
