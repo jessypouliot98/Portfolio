@@ -39,6 +39,8 @@
   "technologies": {
     "title": "Technologies",
     "list": [
+      "Codex",
+      "Claude Code",
       "Typescript",
       "PostgreSQL",
       "React",
