@@ -118,12 +118,14 @@
     "title": "Professional Experiences",
     "job": [
       {
-        "title": "Senior Software Engineer",
+        "title": "Senior Software Developer",
         "stackType": "Front-End",
         "stack": [
           "React Native",
           "TypeScript",
-          "GraphQL"
+          "GraphQL",
+          "Redux Saga",
+          "React Query"
         ],
         "company": "National Bank of Canada",
         "location": "Montreal, QC (hybrid)",
@@ -137,7 +139,7 @@
         ]
       },
       {
-        "title": "Senior Software Engineer",
+        "title": "Senior Software Developer",
         "stackType": "Full-Stack",
         "stack": [
           "React",
@@ -146,7 +148,8 @@
           "TailwindCSS",
           "PostgreSQL",
           "Redis",
-          "Docker"
+          "Docker",
+          "Radix UI"
         ],
         "company": "ECAM.ai (GardaWorld)",
         "location": "Montreal, QC (remote)",
@@ -160,7 +163,7 @@
         ]
       },
       {
-        "title": "Senior Software Engineer",
+        "title": "Senior Software Developer",
         "stackType": "Front-End",
         "stack": [
           "Next.js",
