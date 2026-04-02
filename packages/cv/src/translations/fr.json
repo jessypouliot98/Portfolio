@@ -41,7 +41,7 @@
     "list": [
       "Typescript",
       "PostgreSQL",
-      "React.js",
+      "React",
       "React-Native",
       "Next.js",
       "Node.js",
@@ -86,11 +86,44 @@
       }
     ]
   },
+  "--TODO--": "-- UPDATE THIS FILE WITH TRANSLATIONS  --",
+  "portfolio": {
+    "title": "Portfolio",
+    "project": [
+      {
+        "title": "Forkestrate",
+        "stackType": "Full-Stack",
+        "stack": [
+          "React",
+          "React Native",
+          "Next.js",
+          "TypeScript",
+          "Convex",
+          "LLM"
+        ],
+        "content": [
+          { "text": "Website: https://www.forkestrate.com/" },
+          { "text": "iOS App: Available soon! We're trying to get our app released in April 2026!" },
+          { "text": "Android App: TBD! We're working on releasing on iOS first and getting feedback from the community" },
+          { "text": "Designed a Gantt chart–based cooking flow, transforming traditional recipes into step-by-step timed sequences for improved usability and clarity" },
+          { "text": "Implemented real-time data synchronization using Convex to support dynamic updates and responsive UI interactions" },
+          { "text": "Integrated AI-driven recipe generation, enabling users to create personalized recipes based on preferences or constraints" },
+          { "text": "Practiced rapid iteration and experimentation typical of a hobby/startup environment, shipping features end-to-end" }
+        ]
+      }
+    ]
+  },
   "experience": {
     "title": "Expériences professionnelles",
     "job": [
       {
-        "title": "Ingénieur Logiciel Senior (Frontend)",
+        "title": "Ingénieur Logiciel Senior",
+        "stackType": "Front-End",
+        "stack": [
+          "React Native",
+          "TypeScript",
+          "GraphQL"
+        ],
         "company": "Banque Nationale du Canada",
         "location": "Montréal, QC (hybride)",
         "from": "Mars 2025",
@@ -105,7 +138,15 @@
         ]
       },
       {
-        "title": "Ingénieur Logiciel Senior (Full-Stack)",
+        "title": "Ingénieur Logiciel Senior",
+        "stackType": "Full-Stack",
+        "stack": [
+          "Next.js",
+          "TypeScript",
+          "SQL",
+          "Redis",
+          "Docker"
+        ],
         "company": "ECAM.ai (GardaWorld)",
         "location": "Montréal, QC (télétravail)",
         "from": "Décembre 2022",
@@ -121,9 +162,15 @@
         ]
       },
       {
-        "title": "Ingénieur Logiciel Senior (Frontend)",
+        "title": "Ingénieur Logiciel Senior",
+        "stackType": "Front-End",
+        "stack": [
+          "React Native",
+          "TypeScript",
+          "Redux"
+        ],
         "company": "RenoRun",
-        "location": "Montréal, QC (télétravail complet)",
+        "location": "Montréal, QC (télétravail)",
         "from": "Septembre 2021",
         "to": "Novembre 2022",
         "content": [

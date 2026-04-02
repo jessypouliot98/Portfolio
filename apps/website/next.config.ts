@@ -21,6 +21,16 @@ const nextConfig: NextConfig = {
       source: "/projects",
       destination: "/#projects",
       permanent: false,
+    },
+    {
+      source: "/en/pdf/cv",
+      destination: "/en/pdf/base/cv",
+      permanent: false,
+    },
+    {
+      source: "/fr/pdf/cv",
+      destination: "/fr/pdf/base/cv",
+      permanent: false,
     }
   ])
 };

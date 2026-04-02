@@ -1,9 +1,9 @@
-import { SectionTitle } from "../../../components/SectionTitle";
+import { SectionTitle } from "../components/SectionTitle";
 import { Text, View } from "@react-pdf/renderer";
-import { tw } from "../../../utils/tailwind";
-import { StrengthCard } from "../../../components/StrengthCard";
-import { Section } from "../../../components/Section";
-import { CvTranslation } from "../../../translations/types";
+import { tw } from "../utils/tailwind";
+import { StrengthCard } from "../components/StrengthCard";
+import { Section } from "../components/Section";
+import { CvTranslation } from "../translations/types";
 
 export function PartStrengths({ t }: { t: CvTranslation }) {
   return (

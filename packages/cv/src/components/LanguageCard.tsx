@@ -1,4 +1,4 @@
-import { tw } from "../utils/tailwind.js";
+import { tw } from "../utils/tailwind";
 import { Text, View } from "@react-pdf/renderer";
 
 export type LanguageCardProps = {

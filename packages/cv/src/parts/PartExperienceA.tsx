@@ -1,16 +1,16 @@
-import { CvTranslation } from "../../../translations/types";
-import { SectionTitle } from "../../../components/SectionTitle";
+import { CvTranslation } from "../translations/types";
+import { SectionTitle } from "../components/SectionTitle";
 import { View } from "@react-pdf/renderer";
-import { tw } from "../../../utils/tailwind";
-import { ExperienceCard } from "../../../components/ExperienceCard";
-import { Section } from "../../../components/Section";
-import { BulletList } from "../../../components/BulletList";
+import { tw } from "../utils/tailwind";
+import { ExperienceCard } from "../components/ExperienceCard";
+import { Section } from "../components/Section";
+import { BulletList } from "../components/BulletList";
 
-export type PartExperienceProps = {
+export type PartExperienceAProps = {
   t: CvTranslation;
 }
 
-export function PartExperience({ t }: PartExperienceProps) {
+export function PartExperienceA({ t }: PartExperienceAProps) {
   return (
     <Section>
       <SectionTitle>{t.experience.title}</SectionTitle>
@@ -18,6 +18,8 @@ export function PartExperience({ t }: PartExperienceProps) {
         {t.experience.job.map((job, i) => (
           <ExperienceCard
             key={i}
+            stackType={job.stackType}
+            stack={job.stack}
             job={job.title}
             company={job.company}
             location={job.location}
