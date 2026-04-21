@@ -1,7 +1,9 @@
 {
   "title": "Jessy Pouliot",
   "subtitle": "Senior Full-Stack Developer",
+  "subtitle_react": "Senior React / React-Native Developer",
   "presentation": "Full-stack developer with strong expertise in TypeScript, React, React Native, and modern back-end tooling. Over six years designing and delivering performant applications, scalable APIs, and developer-focused infrastructure. Adept at turning complex product requirements into clean, maintainable systems while improving engineering processes and cross-team collaboration. Known for high-quality execution, pragmatic decision-making, and a strong grasp of system design across the stack.",
+  "presentation_react": "Senior React & React Native Engineer specializing in performance optimization, developer experience, and building smooth, accessible user interfaces. Owns features end-to-end—collaborating with design, product, and backend to deliver cohesive, high-quality solutions. Improved application responsiveness through optimized rendering and API performance, cut CI time by 50%, and built complex, data-dense interfaces including drag-and-drop layout systems and real-time timelines. Expert in TypeScript and modern frontend tooling, focused on delivering fast, intuitive experiences across web and mobile.",
   "contact": {
     "email": {
       "label": "Email"
@@ -93,7 +95,7 @@
     "project": [
       {
         "title": "Forkestrate",
-        "stackType": "Full-Stack",
+        "stackType": "Full-Stack (mobile leaning)",
         "stack": [
           "React",
           "React Native",
@@ -104,7 +106,7 @@
         ],
         "content": [
           { "text": "Website: https://www.forkestrate.com/" },
-          { "text": "iOS App: Available soon! We're trying to get our app released in April 2026!" },
+          { "text": "iOS App: Available soon! We're trying to get our app released in May 2026!" },
           { "text": "Android App: TBD! We're working on releasing on iOS first and getting feedback from the community" },
           { "text": "Designed a Gantt chart–based cooking flow, transforming traditional recipes into step-by-step timed sequences for improved usability and clarity" },
           { "text": "Implemented real-time data synchronization using Convex to support dynamic updates and responsive UI interactions" },
@@ -163,7 +165,7 @@
         ]
       },
       {
-        "title": "Senior Software Developer",
+        "title": "Software Developer",
         "stackType": "Front-End",
         "stack": [
           "Next.js",
