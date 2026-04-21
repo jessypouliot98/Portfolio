@@ -4,6 +4,7 @@ import { CvPageA } from "@repo/cv/src/pages/CvPageA/CvPageA";
 import en from "@repo/cv/src/translations/en.json"
 import fr from "@repo/cv/src/translations/fr.json"
 import { registerFonts } from "@repo/cv/src/utils/registerFonts";
+import { translateVersion } from "@repo/cv/src/translations/utils";
 
 type Params = {
   lang: string;
@@ -17,12 +18,13 @@ export async function GET(
   { params }: { params: Promise<Params> }
 ) {
   const { lang, version } = await params;
+  const t = lang === "fr" ? fr : en;
+  const fileName = translateVersion(t, "fileName", version);
   let contentDisposition: string | undefined;
   if (request.nextUrl.searchParams.get("download") === "1") {
-    contentDisposition = `attachment; filename="CV Jessy Pouliot (${lang}).pdf"`
+    contentDisposition = `attachment; filename="${fileName}.pdf"`
   }
 
-  const t = lang === "fr" ? fr : en;
 
   const pdfStream = await ReactPDF.renderToStream(
     <CvPageA
