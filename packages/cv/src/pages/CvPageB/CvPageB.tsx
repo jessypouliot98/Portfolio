@@ -2,6 +2,7 @@ import { Document, Link, Page, Text, View } from "@react-pdf/renderer";
 import { tw } from "../../utils/tailwind";
 import { translateVersion } from "../../translations/utils";
 import { Translation } from "../../translations/types";
+import { Section, SectionTitle } from "./components";
 
 export type CvPageBProps = {
   t: Translation;
@@ -33,6 +34,23 @@ export function CvPageB({ t, version }: CvPageBProps) {
               </View>
             ))}
           </View>
+        </View>
+        <View style={tw("p-4 gap-4 flex-col justify-center")}>
+          <Section>
+            <Section.Title>{translateVersion(t, "summary", version).title}</Section.Title>
+          </Section>
+          <Section>
+            <Section.Title>{translateVersion(t, "experience", version).title}</Section.Title>
+          </Section>
+          <Section>
+            <Section.Title>{translateVersion(t, "education", version).title}</Section.Title>
+          </Section>
+          <Section>
+            <Section.Title>{translateVersion(t, "languages", version).title}</Section.Title>
+          </Section>
+          <Section>
+            <Section.Title>{translateVersion(t, "strengths", version).title}</Section.Title>
+          </Section>
         </View>
       </Page>
     </Document>

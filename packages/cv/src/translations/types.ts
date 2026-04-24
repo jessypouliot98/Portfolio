@@ -55,8 +55,14 @@ export type Translation = {
   title: string;
   subtitle: string;
   subtitle_react: string;
-  presentation: string;
-  presentation_react: string;
+  summary: {
+    title: string;
+    content: string;
+  };
+  summary_react: {
+    title: string;
+    content: string;
+  }
   contact: {
     items: Contact[];
     type: Record<ContactType, string>;

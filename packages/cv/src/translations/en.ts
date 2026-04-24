@@ -6,8 +6,14 @@ export const en = {
   title: "Jessy Pouliot",
   subtitle: "Senior Full-Stack Developer",
   subtitle_react: "Senior React & React Native Developer",
-  presentation: "",
-  presentation_react: "",
+  summary: {
+    title: "Professional Summary",
+    content: "",
+  },
+  summary_react: {
+    title: "Professional Summary",
+    content: "",
+  },
   contact: {
     items: [
       { type: "email", label: "jessypouliot98@gmail.com", url: "mailto:jessypouliot98@gmail.com" },
