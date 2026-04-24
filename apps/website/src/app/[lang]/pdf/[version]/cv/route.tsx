@@ -1,8 +1,7 @@
 import ReactPDF from "@react-pdf/renderer";
 import { NextRequest } from "next/server";
-import { CvPageA } from "@repo/cv/src/pages/CvPageA/CvPageA";
-import en from "@repo/cv/src/translations/en.json"
-import fr from "@repo/cv/src/translations/fr.json"
+import { en } from "@repo/cv/src/translations/en";
+import { CvPageB } from "@repo/cv/src/pages/CvPageB/CvPageB";
 import { registerFonts } from "@repo/cv/src/utils/registerFonts";
 import { translateVersion } from "@repo/cv/src/translations/utils";
 
@@ -18,7 +17,10 @@ export async function GET(
   { params }: { params: Promise<Params> }
 ) {
   const { lang, version } = await params;
-  const t = lang === "fr" ? fr : en;
+  if (lang !== "en") {
+    return new Response("Not Found", { status: 404 });
+  }
+  const t = en
   const fileName = translateVersion(t, "fileName", version);
   let contentDisposition: string | undefined;
   if (request.nextUrl.searchParams.get("download") === "1") {
@@ -27,7 +29,7 @@ export async function GET(
 
 
   const pdfStream = await ReactPDF.renderToStream(
-    <CvPageA
+    <CvPageB
       t={t}
       version={version}
     />

@@ -12,7 +12,7 @@ import { translateVersion } from "../../translations/utils";
 
 export type CvPageAProps = {
   t: CvTranslation;
-  version: string
+  version?: string
 }
 
 export function CvPageA({ t, version }: CvPageAProps) {
