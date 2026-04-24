@@ -8,11 +8,21 @@ export const en = {
   subtitle_react: "Senior React & React Native Developer",
   summary: {
     title: "Professional Summary",
-    content: "",
+    content: "Full-stack developer with strong expertise in TypeScript, React, React Native, and modern back-end tooling. Over six years designing and delivering performant applications, scalable APIs, and developer-focused infrastructure. Adept at turning complex product requirements into clean, maintainable systems while improving engineering processes and cross-team collaboration. Known for high-quality execution, pragmatic decision-making, and a strong grasp of system design across the stack.",
+    locationType: {
+      "remote": "Remote",
+      "hybrid": "Hybrid",
+      "on-site": "On-site",
+    }
   },
   summary_react: {
     title: "Professional Summary",
-    content: "",
+    content: "Senior React & React Native Engineer specializing in performance optimization, developer experience, and building smooth, accessible user interfaces. Owns features end-to-end—collaborating with design, product, and backend to deliver cohesive, high-quality solutions. Improved application responsiveness through optimized rendering and API performance, cut CI time by 50%, and built complex, data-dense interfaces including drag-and-drop layout systems and real-time timelines. Expert in TypeScript and modern frontend tooling, focused on delivering fast, intuitive experiences across web and mobile.",
+    locationType: {
+      "remote": "Remote",
+      "hybrid": "Hybrid",
+      "on-site": "On-site",
+    }
   },
   contact: {
     items: [

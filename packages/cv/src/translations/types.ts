@@ -49,20 +49,15 @@ export type Experience = {
   content: DetailsText;
 }
 
-export type Translation = {
+export type BaseTranslation = {
   fileName: string;
-  fileName_react: string;
   title: string;
   subtitle: string;
-  subtitle_react: string;
   summary: {
     title: string;
     content: string;
+    locationType: Record<LocationType, string>;
   };
-  summary_react: {
-    title: string;
-    content: string;
-  }
   contact: {
     items: Contact[];
     type: Record<ContactType, string>;
@@ -88,3 +83,9 @@ export type Translation = {
     items: Experience[];
   }
 }
+
+type TranslationVariants<T extends Record<string, unknown>> = {
+  [K in keyof T as `${Extract<K, string>}_${string}`]?: T[K];
+};
+
+export type Translation = BaseTranslation & TranslationVariants<BaseTranslation>;

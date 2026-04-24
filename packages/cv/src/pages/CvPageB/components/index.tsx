@@ -3,7 +3,7 @@ import { tw } from "../../../utils/tailwind";
 
 export function Section({ children }: React.PropsWithChildren) {
   return (
-    <View>
+    <View style={tw("gap-2")}>
       {children}
     </View>
   )
